@@ -21,19 +21,7 @@ const average = (array) => {
     }
     soma += array[i];
   }
-  // return soma / (array.length);
-  // return Math.ceil(soma / (array.length));
   return Math.round(soma / (array.length));
-  // if (soma < 0) return Math.ceil(soma / (array.length));
-  // if (soma > 0) return Math.floor(soma / (array.length));
-  // if (soma === 0) return 0;
 };
-
-const arroz = [-11, -5, 2];
-
-console.log(average(arroz));
-// console.log(Math.floor(1.14));
-
-
 
 module.exports = average;
